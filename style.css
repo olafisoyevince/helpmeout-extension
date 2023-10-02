@@ -1,3 +1,7 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +11,11 @@
 .content {
   padding: 10px;
   min-width: 300px;
+
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
 .title {
@@ -24,4 +33,4 @@
   background: #000;
   color: white;
   width: 100%;
-}
+} */

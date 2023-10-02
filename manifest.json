@@ -4,9 +4,9 @@
   "description": "This extension helps you record and share help videos with ease.",
   "version": "1.0.0",
   "icons": {
-    "16": "16icon.png",
-    "48": "48icon.png",
-    "128": "128icon.png"
+    "16": "images/16icon.png",
+    "48": "images/48icon.png",
+    "128": "images/128icon.png"
   },
   "background": {
     "service_worker": "background.js"
@@ -14,9 +14,9 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "16icon.png",
-      "48": "48icon.png",
-      "128": "128icon.png"
+      "16": "images/16icon.png",
+      "48": "images/48icon.png",
+      "128": "images/128icon.png"
     }
   }, 
   "permissions": [

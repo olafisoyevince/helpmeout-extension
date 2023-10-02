@@ -1,7 +1,7 @@
 //popup.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  const startRecording = document.querySelector("button#startRecording");
+  const startRecording = document.querySelector("#startRecording");
 
   startRecording.addEventListener("click", () => {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
